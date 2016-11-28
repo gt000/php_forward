@@ -1,3 +1,4 @@
 <?php
-header("Location: http://whereyouwant.com/to/go.html");
+$url = getenv("URL");
+header("Location: " . $url );
 ?>
