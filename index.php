@@ -1,4 +1,4 @@
 <?php
 $url = getenv("URL");
-header("Location: " . $url );
+header("Location: http://" . $url );
 ?>
